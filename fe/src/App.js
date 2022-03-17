@@ -10,18 +10,15 @@ function App() {
     <>
       <Router>
         <Routes>
-
-        <Route path='/' exact element={<Home />} />
         <Route path='/home' element={<Home />} />
 
         <Route path='/login' element={<Login />} />
         <Route path='/admin' element={<Admin />} />
 
         <Route path='*' element={<Home />} />
-
         </Routes>
       </Router>
-    </>
+    </> 
   );
 }
 
