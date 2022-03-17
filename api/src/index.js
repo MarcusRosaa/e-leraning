@@ -24,4 +24,4 @@ app.use((error, request, response, next) => {
   response.sendStatus(500);
 });
 
-app.listen(PORT, () => console.log(`🎠 server started at http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`🔥 server started at http://localhost:${PORT}`));
